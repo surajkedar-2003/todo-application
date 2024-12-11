@@ -10,5 +10,4 @@ route.get('/todos/:id', toggleTodoDone);
 route.put('/todos/:id', updateTodo);
 route.delete('/todos/:id', deleteTodo);
 
-
 export default route;
