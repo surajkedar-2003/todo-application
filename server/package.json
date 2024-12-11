@@ -6,7 +6,7 @@
   "type": "module",
   {
   "scripts": {
-    "start": "node index.js",    // Default start command
+    "start": "node index.js",   
     "restart-server": "echo 'Restarting the server using PM2 or Node.js...' && pm2 restart all || pm2 start index.js --name 'mern-server'"
   }
 }
