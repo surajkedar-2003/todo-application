@@ -4,9 +4,12 @@
   "description": "backend of todo-list ",
   "main": "index.js",
   "type": "module",
+  {
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "start": "node index.js",    // Default start command
+    "restart-server": "echo 'Restarting the server using PM2 or Node.js...' && pm2 restart all || pm2 start index.js --name 'mern-server'"
+  }
+}
   "author": "anurag",
   "license": "ISC",
   "dependencies": {
